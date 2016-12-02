@@ -4,7 +4,7 @@ RUN apt update && apt install -y nginx
 
 ADD index.html /var/www/html/index.html
 
-VOLUME /var/ww/html
+VOLUME /var/www/html
 
 EXPOSE 80
 
